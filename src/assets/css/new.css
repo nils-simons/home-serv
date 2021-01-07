@@ -1,0 +1,86 @@
+.sec-new {
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    background-color: var(--main-bg-color);
+}
+
+.div-new-back {
+    position: relative;
+    top: 0;
+    padding: 10px 16px;
+    width: 30px;
+    background-color: var(--main-inbox-color);
+    cursor: pointer;
+    border-radius: 0 0 10px;
+    transition: 0.2s;
+}
+
+.div-new-back:hover {
+    transition: 0.2s;
+    background-color: #171b20;
+}
+
+.form-new {
+    text-align: center;
+}
+
+.label-new {
+    color: var(--main-white-color);
+    font-size: 1.2em;
+}
+
+.input-new {
+    background-color: var(--main-inbox-color);
+    color: var(--main-white-color);
+    border-radius: 5px;
+    padding: 12px 16px;
+    border: 1.6px solid var(--main-boxoutline-color);
+    font-size: 1.2em;
+    outline: none;
+}
+
+.div-new-action-path {
+    margin-top: 40px;
+}
+
+.input-new-action-path {
+    width: 50vw;
+    cursor: pointer;
+}
+
+.btn-new-create {
+    margin-top: 20px;
+    width: 14vw;
+    padding: 9px 12px;
+    background-color: var(--main-green-color);
+    font-size: 1.2em;
+    color: var(--main-white-color);
+    border-radius: 5px;
+    border: 1.6px solid var(--main-boxoutline-color);
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+}
+
+.btn-new-create:hover {
+    transition: 0.2s;
+    background-color: rgb(45, 207, 67);
+}
+
+
+.txt-new-payload {
+    display: none;
+    position: relative;
+    margin-top: 30px;
+    background-color: var(--main-inbox-color);
+    border: 1.6px solid var(--main-boxoutline-color);
+    outline: none;
+    border-radius: 5px;
+    font-size: 1.3em;
+    color: var(--main-white-color);
+    padding: 9px 12px;
+    resize: none;
+}

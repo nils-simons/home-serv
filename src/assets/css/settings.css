@@ -1,0 +1,83 @@
+.sec-settings {
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    background-color: var(--main-bg-color);
+}
+
+.div-settings-back {
+    position: relative;
+    top: 0;
+    padding: 10px 16px;
+    width: 30px;
+    background-color: var(--main-inbox-color);
+    cursor: pointer;
+    border-radius: 0 0 10px;
+    transition: 0.2s;
+}
+
+.div-settings-back:hover {
+    transition: 0.2s;
+    background-color: #171b20;
+}
+
+.input-settings {
+    background-color: var(--main-inbox-color);
+    color: var(--main-white-color);
+    border-radius: 5px;
+    padding: 12px 16px;
+    border: 1.6px solid var(--main-boxoutline-color);
+    font-size: 1.2em;
+    outline: none;
+}
+
+.form-settings-server {
+    padding: 30px 40px;
+}
+
+.label-settings-server {
+    color: var(--main-white-color);
+    font-size: 1.2em;
+    margin-bottom: 50px;
+}
+
+.input-server-host {
+    cursor: not-allowed;
+}
+
+.input-server-port {
+    width: 8vw;
+}
+
+.input-server-key {
+    margin-top: 20px;
+    width: 50vw;
+}
+
+.btn-settings-save {
+    margin-top: 20px;
+    width: 10vw;
+    padding: 9px 12px;
+    background-color: var(--main-green-color);
+    font-size: 1.2em;
+    color: var(--main-white-color);
+    border-radius: 5px;
+    border: 1.6px solid var(--main-boxoutline-color);
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+}
+
+.btn-settings-save:hover {
+    transition: 0.2s;
+    background-color: rgb(45, 207, 67)
+}
+
+.div-settings-saved {
+    margin-top: 14px;
+    color: var(--main-white-color);
+    display: none;
+}
+
