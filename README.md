@@ -21,3 +21,4 @@ Copy the json string and create a new applet in IFTTT, choose "Webhooks" for "Th
 |Linux Support|-|
 |MacOS Support|-|
 |Add payload field to modify section|-|
+
