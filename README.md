@@ -17,6 +17,7 @@ Copy the json string and create a new applet in IFTTT, choose "Webhooks" for "Th
 
 ||STATUS|
 |----------------|-------------------------------|
+|Nicer JS and CSS|working on|
 |Linux Support|-|
 |MacOS Support|-|
 |Add payload field to modify section|-|
